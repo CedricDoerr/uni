@@ -1,6 +1,6 @@
 import base64
-from Crypto import Random
-from Crypto.Cipher import AES
+from crypto import Random
+from crypto.Cipher import AES
 
 f = open('CSS\data.bin','r')
 input = f.read().split('|')
@@ -9,9 +9,6 @@ pq = [982457503, 982457513]
 d = 294661167473102753
 e = 672977
 n = 965222755025570039
-
-""" kAES = [721786126185516225,3239110541552888201,5224165158219227231110,102491508211381099]
-keys = ['0e12946d1f41c36028e57925092da628','11b37cddc5305307c2757ac7be9b38fcca','e12946d1f41c36028e57925092da62811b37cddc5305307c2757ac7be9b38fcca'] """
 
 ans = []
 ansHex=[]
