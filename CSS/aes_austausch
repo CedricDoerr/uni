@@ -1,0 +1,1 @@
+Unterstehender Code für die Berechnung der Anzahl der gesamt benutzen Schlüssel. Für Schlüssel pro Partei: wird n-1 und i=1 genommen import math n = 117 i = 2 sum = 0 while (i <= n): sum += math.comb(n,i) i += 1 print(sum)
